@@ -1,0 +1,5 @@
+This is a rough ruby script that I used with weheartplaces to sync the users bookmarks with their places on Ovi Maps. The cool thing about this is that all your bookmarks then show up on your mobiles Ovi maps client.
+
+Ovi hasn't created an official API yet, so I had to use www-mechanize to log in, then we could use net/http and json to read and write to the API.
+
+I haven't tested this in 6 months, so it might not be current - but try it out and let me know.
